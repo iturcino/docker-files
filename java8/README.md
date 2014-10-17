@@ -7,7 +7,7 @@ This image is built to include latest version of Oracle JDK 8. It is based on [p
 A prebuilt container is available on Docker Hub, you can get it with following command
 
 ```sh
-docker pull iturcino/java8
+docker pull inovatrend/java8
 ```
 
 ### Usage
@@ -15,5 +15,5 @@ docker pull iturcino/java8
 To test run it, run following command:
 
 ```sh
-docker run --rm -P -t -i iturcino/java8 /sbin/my_init -- bash -l
+docker run --rm -P -t -i inovatrend/java8 /sbin/my_init -- bash -l
 ```

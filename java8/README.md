@@ -13,6 +13,7 @@ docker pull iturcino/java8
 ### Usage
 
 To test run it, run following command:
+
 ```sh
 docker run --rm -P -t -i iturcino/java8 /sbin/my_init -- bash -l
 ```

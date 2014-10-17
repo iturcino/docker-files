@@ -1,6 +1,6 @@
 # Oracle Java 8 image
 
-This image is built to include latest version of Oracle JDK 8. It is based on [phusion/baseimage](https://github.https://registry.hub.docker.com/u/phusion/baseimage/) , so it inherts all goodies from it.
+This image is built to include latest version of Oracle JDK 8. It is based on [phusion/baseimage](https://registry.hub.docker.com/u/phusion/baseimage/) , so it inherts all goodies from it.
 
 ### Pulling image
 

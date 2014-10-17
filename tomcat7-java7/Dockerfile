@@ -1,4 +1,4 @@
-FROM iturcino/java7:0.1
+FROM inovatrend/java7
 
 MAINTAINER Ivan Turcinovic <ivan.turcinovic@inovatrend.com>
 

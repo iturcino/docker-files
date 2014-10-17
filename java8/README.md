@@ -15,5 +15,5 @@ docker pull inovatrend/java8
 To test run it, run following command:
 
 ```sh
-docker run --rm -P -t -i inovatrend/java8 /sbin/my_init -- bash -l
+docker run --rm -P -t -i inovatrend/java8:0.1 /sbin/my_init -- bash -l
 ```

@@ -29,8 +29,8 @@ RUN mkdir /etc/service/tomcat
 ADD tomcat.sh /etc/service/tomcat/run
 RUN chmod +x /etc/service/tomcat/run
 
-# Add tomcat roles and users
-#ADD tomcat-users.xml ${CATALINA_HOME}/conf/
+# Add tomcat context.xml file which allows symlinks (allowLinking = true)
+ADD context.xml ${CATALINA_HOME}/conf/
 
 # Remove unneeded apps
 RUN rm -rf ${CATALINA_HOME}/webapps/examples ${CATALINA_HOME}/webapps/docs 

@@ -3,7 +3,7 @@ FROM inovatrend/java8
 MAINTAINER Ivan Turcinovic <ivan.turcinovic@inovatrend.com>
 
 ENV TOMCAT_MAJOR_VERSION 8
-ENV TOMCAT_MINOR_VERSION 8.0.14
+ENV TOMCAT_MINOR_VERSION 8.0.24
 ENV CATALINA_HOME /opt/tomcat
 
 RUN apt-get update && \

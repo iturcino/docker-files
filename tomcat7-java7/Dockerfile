@@ -3,7 +3,7 @@ FROM inovatrend/java7
 MAINTAINER Ivan Turcinovic <ivan.turcinovic@inovatrend.com>
 
 ENV TOMCAT_MAJOR_VERSION 7
-ENV TOMCAT_MINOR_VERSION 7.0.56
+ENV TOMCAT_MINOR_VERSION 7.0.63
 ENV CATALINA_HOME /opt/tomcat
 
 RUN apt-get update && \
